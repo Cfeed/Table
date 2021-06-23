@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maro Тable</title>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+label {
+  white-space: pre-wrap;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  /* background-color: #00FFFF; */
+}
+
+
+
+
+table {
+ /* border: 1px solid #ccc;*/
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+tr {
+   background-color: rgb(241 243 244);
+   border: 1px solid #2021240f;
+  padding: 0.35em;
+
+}
+
+th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    /*border-bottom: 3px solid #00FFFF; */
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  table td {
+   /* border-bottom: 1px solid #00FFFF; */
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
+
+/*# =================================    اللي انا بضيفه من نفسي   ===================================== */
+input.bordershadow {
+    outline: none;
+    border: solid 1px #80808080;
+}
+table th, table td {
+    padding-left: 2px !important;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <table>
+        <caption>Previous Three Years Residency</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>STREET</th>
+                <th>CITY</th>
+                <th>STATE & ZIP CODE</th>
+                <th># YEARS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+<td scope="col">First Year</td>
+                <td data-label="Street"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="City"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="State & ZipCode"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="#Years"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+            </tr>
+            <tr>
+<td scope="col">Second Year</td>
+                <td data-label="Street"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="City"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="State & ZipCode"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="#Years"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+            </tr>
+            <tr>
+<td scope="col">Third Year</td>
+                <td data-label="Street"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="City"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="State & ZipCode"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+                <td data-label="#Years"><input type="Text" name="email" id="sp myInput" oninput="this.className = ''" class="a" placeholder="Enter..." autocomplete="off"></td>
+            </tr>
+           
+        </tbody>
+    </table>
+
+</body>
+
+</html>
